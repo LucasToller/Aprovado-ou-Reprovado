@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+ double media;
+  cout << "Informe a média na disciplina ";
+  cin >> media;
+  
+  int faltas;
+  cout <<"Informe o número de faltas no semestre ";
+  cin >> faltas;
+  
+  if (media >= 7.0 && faltas < 10) {
+      cout << "Aprovado" << endl;
+  }else if (media >= 5.0 && media < 7.0 && faltas < 10) {
+      cout << "Recuperação" << endl;
+  }else {
+      cout << "Reprovado" << endl;
+  }
+  }
+  
